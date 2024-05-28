@@ -52,6 +52,9 @@ body{
     width: 45%;
     border-top-left-radius: 1rem;
     border-bottom-left-radius: 1rem;
+    display:flex;
+    align-items: center;
+    justify-content: center;
     background-color: crimson;
 }
 
