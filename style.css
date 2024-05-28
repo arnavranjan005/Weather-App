@@ -1,0 +1,170 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    background-color: cornsilk;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    height: 40rem;
+    width: 30rem;
+    background:#e6e6fa;;
+    display: flex;
+    color: white;
+    flex-direction: column; 
+    gap: .7rem;
+    align-items: center;
+    border-radius: 30px;
+}
+
+#date{
+    color: black;
+    background-color: #eeeeff;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5%;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+.display{
+    margin-top: 0.5rem;
+    display: flex;
+    height: 40%;
+    background-color: aliceblue;
+    width: 95%;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1rem;
+}
+
+#img{
+    height: 95%;
+    width: 45%;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: crimson;
+}
+
+#info{
+    text-align: center;
+    height: 95%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    background-color:tomato;
+}
+
+#bar{
+    display: flex; gap: 2rem; 
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+#text{
+    border-radius: 1rem;
+    border-width: .05rem;
+    outline: none;
+    padding: .5rem;
+    width: 70%;
+}
+
+#search{
+    padding: .2rem;
+    font-size: 2rem;
+    text-align: center;
+    color: blue;
+    background-color: white;
+    border: none;
+    border-radius: 70%;
+    cursor: pointer;
+}
+
+#search:hover{background-color:blue;color: white;}
+
+.Forcast{
+    height: 40%;
+    width: 90%;
+    text-align: center;
+    font-size: 2rem;
+    background-color: rgba(0, 0, 220, 0.551);
+    border-radius: 1rem;
+    overflow: auto;
+}
+
+.Forcast input{display: none;}
+
+.Forcast input:checked+label{background-color: rgb(0, 0, 134)}
+
+.Forcast label{
+    height: 5rem;
+    width: 95%;
+    background-color: blue;
+    margin: 0.5rem 0.5rem;
+    cursor: pointer;
+    border-radius: .5rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.Forcast label:hover{background-color: rgb(0, 0, 134)}
+
+.Forcast label div{
+    height: 90%;
+    width: 40%;
+    font-size: 1rem;
+    background-color: inherit;
+}
+
+.Forcast label p{
+    margin: 0.5rem 0.5rem;
+    font-size: 1rem;
+    color: white;
+}
+
+.butt{
+    display: flex;
+    gap: .1rem;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: .35rem;
+}
+
+.butt button{
+    padding: 1rem;
+    background-color: white;
+    border-width: .05rem;
+    width: 32.5%;
+    cursor: pointer;
+}
+
+.butt button:hover{background-color: blue;color: white;}
+
+/* #curr{display: none;} */
+
+#next{
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+#prev{
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+}
